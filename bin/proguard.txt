@@ -1,0 +1,16 @@
+# view res/layout/criteriafragmentpageradapter.xml #generated:12
+-keep class android.support.v4.view.PagerTitleStrip { <init>(...); }
+
+# view res/layout/criteriafragmentpageradapter.xml #generated:1
+-keep class android.support.v4.view.ViewPager { <init>(...); }
+
+# view AndroidManifest.xml #generated:16
+-keep class com.iwantfood.ryanvanderveen.CriteriaFragmentActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:9
+-keep class com.iwantfood.ryanvanderveen.MainActivity { <init>(...); }
+
+# onClick res/layout/main.xml #generated:11
+# onClick res/layout/main.xml #generated:18
+-keepclassmembers class * { *** mainButtonClicked(...); }
+
